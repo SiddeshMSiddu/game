@@ -11,7 +11,7 @@ import {
   FlatList,
 } from 'react-native';
 
-// Define custom card type
+
 type MemoryCard = {
   id: string;
   symbol: string;
