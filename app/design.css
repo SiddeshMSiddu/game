@@ -1,0 +1,49 @@
+#box{
+    border: 2px solid red;
+    width:40;
+    height:40;
+    
+}
+#bottom{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 8;
+   justify-content: center;
+   color:white;
+}
+#left{
+    display: flex;
+    margin-top: 8;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    rotate:90deg ;
+    color:white;
+}
+#top{
+    display: flex;
+    margin-top: 8;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    rotate:180deg ;
+    color:white;
+}
+#right{
+    display: flex;
+    margin-top: 8;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    rotate:270deg ;
+    color:white;
+}
+#buttonId{
+    position: absolute;
+    top:25%;
+    left: 38%;
+    border: 2px solid red;
+    width: 100;
+    align-items: center;
+}
